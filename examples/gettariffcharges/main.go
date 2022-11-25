@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/danopstech/octopusenergy"
+	"github.com/totaldebug/octopusenergy"
 )
 
 func main() {

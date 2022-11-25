@@ -1,2 +1,7 @@
 .idea/
 example/
+
+.devcontainer/*
+!.devcontainer/devcontainer.json
+!.devcontainer/Dockerfile
+!.devcontainer/recommended-docker-compose.yml

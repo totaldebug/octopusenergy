@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/danopstech/octopusenergy"
+	"github.com/totaldebug/octopusenergy"
 )
 
 func ExampleBool() {

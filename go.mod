@@ -1,4 +1,4 @@
-module github.com/danopstech/octopusenergy
+module github.com/totaldebug/octopusenergy
 
 go 1.16
 
