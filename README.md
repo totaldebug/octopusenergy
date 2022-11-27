@@ -1,16 +1,16 @@
 <p align=center>
-  <img alt=logo src="https://github.com/danopstech/octopusenergy/raw/main/.docs/assets/workswith.png" height=150 />
+  <img alt=logo src="https://github.com/totaldebug/octopusenergy/raw/main/.docs/assets/workswith.png" height=150 />
   <h3 align=center>Octopus Energy Golang API client</h3>
 </p>
 
 ---
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/danopstech/octopusenergy/)](https://pkg.go.dev/github.com/danopstech/octopusenergy/)
-[![License](https://img.shields.io/github/license/danopstech/octopusenergy)](/LICENSE)
-[![Release](https://img.shields.io/github/release/danopstech/octopusenergy.svg)](https://github.com/danopstech/octopusenergy/releases/latest)
-[![tests](https://github.com/danopstech/octopusenergy/actions/workflows/build.yaml/badge.svg)](https://github.com/danopstech/octopusenergy/actions/workflows/build.yaml)
-[![Go Report Card](https://goreportcard.com/badge/github.com/danopstech/octopusenergy)](https://goreportcard.com/report/github.com/danopstech/octopusenergy)
-![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/danopstech/octopusenergy)
-![GitHub issues](https://img.shields.io/github/issues/danopstech/octopusenergy)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/totaldebug/octopusenergy/)](https://pkg.go.dev/github.com/totaldebug/octopusenergy/)
+[![License](https://img.shields.io/github/license/totaldebug/octopusenergy)](/LICENSE)
+[![Release](https://img.shields.io/github/release/totaldebug/octopusenergy.svg)](https://github.com/totaldebug/octopusenergy/releases/latest)
+[![tests](https://github.com/totaldebug/octopusenergy/actions/workflows/build.yaml/badge.svg)](https://github.com/totaldebug/octopusenergy/actions/workflows/build.yaml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/totaldebug/octopusenergy)](https://goreportcard.com/report/github.com/totaldebug/octopusenergy)
+![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/totaldebug/octopusenergy)
+![GitHub issues](https://img.shields.io/github/issues/totaldebug/octopusenergy)
 
 This package provides a Golang client to [Octopus Energy's API](https://developer.octopus.energy/docs/api/). Octopus Energy provides a REST API for customers to interact with our platform. Amongst other things, it provides functionality for:
 
@@ -26,7 +26,7 @@ Authentication is required for all API end-points when using this API client. Th
 **Warning: Do not share your secret API keys with anyone.**
 
 ### Not an Octopus Energy customer?
-Please read about the Octopus tariffs and ensure they are right for you, if you think they are, then please use my [referral link](https://share.octopus.energy/dusk-shark-465). (at the time of writing this we will both receive £50 credit)
+Please read about the Octopus tariffs and ensure they are right for you, if you think they are, then please use my [referral link](https://share.octopus.energy/topaz-moon-377). (at the time of writing this we will both receive £50 credit)
 
 ### Usage
 More in the examples folder
