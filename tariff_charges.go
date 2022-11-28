@@ -61,7 +61,7 @@ type TariffChargesGetOutput struct {
 		ValueExcVat float64   `json:"value_exc_vat"`
 		ValueIncVat float64   `json:"value_inc_vat"`
 		ValidFrom   time.Time `json:"valid_from"`
-		ValidTo     time.Time `json:"valid_to"`
+		ValidTo     *time.Time `json:"valid_to"`
 	} `json:"results"`
 }
 
