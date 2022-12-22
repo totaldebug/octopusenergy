@@ -53,11 +53,16 @@ type ConsumptionGetOutput struct {
 	Next     string `json:"next"`
 	Previous string `json:"previous"`
 	Results  []struct {
-		Consumption   float64 `json:"consumption"`
-		IntervalStart string  `json:"interval_start"`
-		IntervalEnd   string  `json:"interval_end"`
+		ConsumptionData
 	} `json:"results"`
 }
+
+type ConsumptionData struct {
+	Consumption   float64 `json:"consumption"`
+	IntervalStart string  `json:"interval_start"`
+	IntervalEnd   string  `json:"interval_end"`
+}
+
 
 // Get consumption data for give meter details. This endpoint is paginated, it will return
 // next and previous links if returned data is larger than the set page size, you are responsible

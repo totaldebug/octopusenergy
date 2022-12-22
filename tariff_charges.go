@@ -58,11 +58,15 @@ type TariffChargesGetOutput struct {
 	Next     string `json:"next"`
 	Previous string `json:"previous"`
 	Results  []struct {
-		ValueExcVat float64   `json:"value_exc_vat"`
-		ValueIncVat float64   `json:"value_inc_vat"`
-		ValidFrom   time.Time `json:"valid_from"`
-		ValidTo     *time.Time `json:"valid_to"`
+		ChargesData
 	} `json:"results"`
+}
+
+type ChargesData struct {
+	ValueExcVat float64   `json:"value_exc_vat"`
+	ValueIncVat float64   `json:"value_inc_vat"`
+	ValidFrom   time.Time `json:"valid_from"`
+	ValidTo     time.Time `json:"valid_to"`
 }
 
 // Get retrieves the details of a tariffs changes. This endpoint is paginated, it will return
